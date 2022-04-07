@@ -59,3 +59,14 @@ img.hover-shadow {
 .modal-content {
     border-width: 0px !important;
 }
+
+@media (min-width: 0px) {
+    .card-columns {
+        column-count: 3;
+        column-gap: 2%;
+    }
+}
+
+.card-columns .card {
+    margin-bottom: 3.5%;
+}
