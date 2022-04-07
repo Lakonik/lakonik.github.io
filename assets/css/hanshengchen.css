@@ -70,3 +70,20 @@ img.hover-shadow {
 .card-columns .card {
     margin-bottom: 3.5%;
 }
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 black;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
