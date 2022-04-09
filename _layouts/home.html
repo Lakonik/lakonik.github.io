@@ -4,9 +4,6 @@ layout: default
 
 <h3 class="fw-bold">
   About me
-  <!-- {% for item in site.data.settings.social %}
-  <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-  {% endfor %} -->
 </h3>
 <div class="row align-items-center">
   <div class="col-md-8">
@@ -20,18 +17,11 @@ layout: default
 
 <div class="row mb-5">
   <div class="col-md-6">
-    <a href="https://github.com/Lakonik" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
-    <a href="mailto:hanshengchen97@gmail.com" class="ms-3 fs-5"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/Lakonik" class="ms-3 fs-5" target="_blank" rel="noopener"><i
+        class="fab fa-github"></i></a>
+    <a href="mailto:hanshengchen97@gmail.com" class="ms-3 fs-5" target="_blank" rel="noopener"><i
+        class="fa fa-envelope"></i></a>
   </div>
 </div>
 
 {% include publications.html %}
-
-<!-- <div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
-    {% for post in site.posts %}
-      <p><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
-    {% endfor %}
-  </div>
-</div> -->
