@@ -69,6 +69,7 @@ img.hover-shadow {
 
 .card-columns .card {
     margin-bottom: 3.5%;
+    display: inline-block;
 }
 
 .close {
